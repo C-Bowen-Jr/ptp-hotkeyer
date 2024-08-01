@@ -1,5 +1,7 @@
 # PNGTuber Plus Hotkeyer
-PTPH is a 2 part solution to the hotkey for issue [#7](https://github.com/kaiakairos/PNGTuber-Plus/issues/7) for [PNGTuber Plus](https://kaiakairos.itch.io/pngtuber-plus). **Part 1** is to modify the ```main.gd``` script. This allows the number keys to to toggle costume/emotes as expected. This can be used stand alone if you have focus on PNGTuber Plus. So commentary users should be fine. **Part 2** is a companion program that asks X11 permission of the (non-numpad) number keys, plus the Home key. This then sends a localhost TCP message to PNGTuber Plus (secondary alteration to ```main.gd```) which is acting as a server to await these messages. This is helpful to users who want to user PNGTuber Plus while playing video games.
+PTPH is a 2 part solution to the hotkey for issue [#7](https://github.com/kaiakairos/PNGTuber-Plus/issues/7) for [PNGTuber Plus](https://kaiakairos.itch.io/pngtuber-plus). 
+**Part 1** is to modify the ```main.gd``` script. This allows the number keys to to toggle costume/emotes as expected. This can be used stand alone if you have focus on PNGTuber Plus. So commentary users should be fine. 
+**Part 2** is a companion program that asks X11 permission of the (non-numpad) number keys, plus the Home key. This then sends a localhost TCP message to PNGTuber Plus (secondary alteration to ```main.gd```) which is acting as a server to await these messages. This is helpful to users who want to user PNGTuber Plus while playing video games.
 
 ## Requirements
  - [Godot](https://godotengine.org) (Parts 1 & 2)
