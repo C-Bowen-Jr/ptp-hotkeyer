@@ -169,7 +169,7 @@ func _process(delta):
 	# PTPHotkeyer
 	connection = server.take_connection()
 	if connection:
-		var data = connection.get_utf8_sftring(1)
+		var data = connection.get_utf8_string(1)
 		changeCostumeStreamDeck(data)
 
 func followShadow():
